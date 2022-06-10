@@ -1,0 +1,182 @@
+body {
+    background-color: white;
+    margin: 0px;
+    color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+nav-link {
+    color: white;
+}
+
+nav-link:hover {
+    color: white;
+}
+
+nav-link:visited {
+    color: white;
+}
+
+.topnav {
+    background-color: #1D3A74;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    text-align: center;
+    width: 100vw;
+    z-index: 1;
+}
+
+.name {
+    margin: 16px;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+nav {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    margin: 16px;
+    padding-right: 20px;
+    list-style: none;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 59px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 483px;
+}
+
+.mountain {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: auto;
+    max-width: none;
+    object-fit: contain;
+    flex-grow: 1;
+}
+
+.banner-text {
+    background-color: white;
+    width: 500px;
+    margin-top: 40px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    color: white;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 50px;
+    padding: 100px 42px;
+}
+
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    padding: 20px;
+    margin: 0px;
+    margin-left: 0px;
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.intro {
+    font-size: xx-large;
+    font-family: Impact, fantasy;
+    color: black;
+    margin: 40px;
+}
+
+
+.link {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    color: black;
+    margin-left: 50px;
+}
+
+.body-heading {
+    margin-top: 20px;
+    margin-left: 32px;
+    color: #1D3A74;
+}
+
+button {
+    margin-left: 32px;
+    background-color: aliceblue;
+    border-width: 1px;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: azure;
+}
+
+#about-me {
+    display: none;
+}
+
+.list {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 32px;
+}
